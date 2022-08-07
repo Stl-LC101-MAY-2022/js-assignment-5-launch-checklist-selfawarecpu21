@@ -82,7 +82,6 @@ async function myFetch() {
 }
 
 function pickPlanet(planets) {
-    missionTarget = document.getElementById('missionTarget');
     let randNum = Math.floor(Math.random() * planets.length);
     return planets[randNum];
 }
